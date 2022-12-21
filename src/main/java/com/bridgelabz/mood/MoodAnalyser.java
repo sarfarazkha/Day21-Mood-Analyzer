@@ -25,7 +25,7 @@ public class MoodAnalyser {
             if (message == null)
                 throw new MoodAnalysisException("Invalid Mood", MoodAnalysisException.Exception_Type.NULL);
             else
-                throw new MoodAnalysisException("Invalid Mood", MoodAnalysisException.Exception_Type.EMPTY);
+                throw new MoodAnalysisException("Invalid Mood", MoodAnalysisException.Exception_Type.EMPTY); 
         }
     }
 }
