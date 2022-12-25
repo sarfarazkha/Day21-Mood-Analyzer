@@ -33,7 +33,7 @@ class MoodAnalyserTest extends MoodAnalyser {
         try {
             mood = moodAnalyser.analyseMood();
             assertEquals("HAPPY", mood);
-        } catch (MoodAnalysisException e) {
+        } catch (MoodAnalysisException e) { 
             e.printStackTrace();
         }
     }
