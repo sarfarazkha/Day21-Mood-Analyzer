@@ -1,7 +1,7 @@
 package com.bridgelabz.mood;
 
 
-public class MoodAnalyser {
+public class MoodAnalyser { 
     String message;
 
     public static String analyzeMood(String message) {
