@@ -6,7 +6,7 @@ public class MoodAnalysisException extends Exception {
         super(message);
     }
 
-    public enum Exception_Type {
+    public enum Exception_Type { 
         NULL, EMPTY;
     }
 }
