@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MoodAnalyserTest extends MoodAnalyser {
+class MoodAnalyserTest extends MoodAnalyser { 
 
     @Test
     void givenMessageWhenSadShouldReturnSad() {
