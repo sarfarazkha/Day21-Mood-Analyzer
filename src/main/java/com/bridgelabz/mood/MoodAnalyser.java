@@ -4,7 +4,7 @@ package com.bridgelabz.mood;
 public class MoodAnalyser {
     String message;
 
-    public MoodAnalyser(String message) {
+    public MoodAnalyser(String message) { 
         this.message = message;
     }
 
@@ -20,5 +20,3 @@ public class MoodAnalyser {
         }
     }
 }
-
-
